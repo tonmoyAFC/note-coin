@@ -11,7 +11,7 @@ int main() {
     r2 = (-b-sqrt(del))/(2*a);
     
     if (a!= 0 && del>0){
-        printf("R1 = .5lf\nR2 = .5lf\n",r1,r2);
+        printf("R1 = %.5lf\nR2 = %.5lf\n",r1,r2);
         
     }
     else{
